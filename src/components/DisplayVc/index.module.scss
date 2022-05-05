@@ -1,0 +1,40 @@
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 50px;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.helper_text {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.code_wrapper {
+  background-color: #f7f7f7;
+  padding: 32px;
+  max-width: 488px;
+  margin: 0 auto;
+  margin-bottom: 83px;
+}
+
+.code_title {
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.code {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.buttons_container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

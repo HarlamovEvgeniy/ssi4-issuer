@@ -1,0 +1,28 @@
+.container {
+  padding-top: 162px;
+}
+
+.title {
+  font-size: 56px;
+  line-height: 50px;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.inputs_wrapper {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.input_select {
+  margin-bottom: 10px;
+}
