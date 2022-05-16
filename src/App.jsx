@@ -14,6 +14,7 @@ import ConnectWalletPage from "./sdk/ConnectWalletPage";
 import LoginDidPage from "./sdk/LoginDidPage";
 import LoginPage from "./sdk/LoginPage";
 import WelcomeDidPage from "./sdk/WelcomeDidPage";
+import WelcomeDidPageEver from "./sdk/WelcomeDidPageEver";
 import {changeTheme, hideTip, showPopup} from "./store/actions/app";
 import {
   enterSeedPhraseEmptyStorage,
@@ -104,6 +105,7 @@ function App() {
         <Route path="/display" component={DisplayVc} />
         <Route path="/connect" component={ConnectWalletPage} />
         <Route path="/welcome-did" component={WelcomeDidPage} />
+        <Route exact path="/welcome-did-ever" component={WelcomeDidPageEver}></Route>
         <Route exact path="/login" component={LoginPage} />
         <Route path="/login-did" component={LoginDidPage} />
         <Route path="/app" component={AppPage} />
